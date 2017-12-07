@@ -2,6 +2,12 @@
   /*display: inline-block;*/
   font-family: Arial, sans-serif;
   box-sizing: border-box;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  padding: 10px 0;
 }
 
 ul {
@@ -52,3 +58,31 @@ main {
 img {
   width: 100%;
 }
+
+#cats-text, #products, #last {
+  padding: 30px 20px;
+}
+
+#cats-text {
+  clear: both;
+  background-color: #FFD166;
+}
+
+#products {
+  background-color: #F2F2F2;
+}
+ #products ul {
+   overflow: hidden;
+   margin: 0;
+   padding: 0;
+ }
+
+ #products li {
+   float: left;
+   width: 33%;
+   padding: 10px;
+ }
+
+ #products img {
+   border: 3px solid black;
+ }
