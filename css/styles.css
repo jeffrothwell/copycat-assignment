@@ -1,5 +1,4 @@
 * {
-  /*display: inline-block;*/
   font-family: Arial, sans-serif;
   box-sizing: border-box;
   margin: 0;
@@ -14,8 +13,8 @@ ul {
   list-style: none;
 }
 
-header {
-  background-color: #42f4d1;
+header, footer {
+  background-color: #06D6A0;
   height: 60px;
   width: 100%;
   padding: 0 10px;
@@ -23,17 +22,24 @@ header {
 
 h1, li {
   display: inline-block;
+  padding: 12px 6px;
 }
 
 h1  {
   float: left;
   color: white;
-  font-size: 26px;
+  font-size: 18px;
   text-align: center;
+  padding-top: 20px;
 }
 
 nav {
   float: right;
+  margin: 4px;
+}
+
+a {
+  font-size: 20px;
 }
 
 main {
@@ -63,6 +69,10 @@ img {
   padding: 30px 20px;
 }
 
+h3 {
+  padding-bottom: 30px;
+}
+
 #cats-text {
   clear: both;
   background-color: #FFD166;
@@ -86,3 +96,27 @@ img {
  #products img {
    border: 3px solid black;
  }
+
+ #last {
+   clear: both;
+   background-color: #26547C;
+   color: white;
+ }
+
+.keywords {
+  overflow: hidden;
+  height: 40px;
+}
+
+.keywords h4 {
+  float: left;
+  width: 33.3333333%;
+  color: #EF476F;
+  text-align: center;
+  font-size: 22px;
+}
+
+footer {
+  text-align: right;
+  padding: 12px;
+}
