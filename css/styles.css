@@ -1,6 +1,7 @@
 * {
-  display: inline-block;
+  /*display: inline-block;*/
   font-family: Arial, sans-serif;
+  box-sizing: border-box;
 }
 
 ul {
@@ -14,10 +15,15 @@ header {
   padding: 0 10px;
 }
 
+h1, li {
+  display: inline-block;
+}
+
 h1  {
   float: left;
   color: white;
-  font-size: 22px;
+  font-size: 26px;
+  text-align: center;
 }
 
 nav {
@@ -25,15 +31,24 @@ nav {
 }
 
 main {
-  width: 1000px;
-  margin: 0 auto;
+  max-width: 900px;
+  margin: auto;
 }
 
 #hero {
+  overflow: hidden;
   float: left;
-  background-color: #2158b7;
+  background-color: #26547C;
+  color: white;
+  text-align: center;
+  font-size: 26px;
 }
 
-#hero img {
+.hero-image {
+  float: left;
   width: 60%;
+}
+
+img {
+  width: 100%;
 }
