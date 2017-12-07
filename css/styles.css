@@ -1,0 +1,39 @@
+* {
+  display: inline-block;
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  background-color: #42f4d1;
+  height: 60px;
+  width: 100%;
+  padding: 0 10px;
+}
+
+h1  {
+  float: left;
+  color: white;
+  font-size: 22px;
+}
+
+nav {
+  float: right;
+}
+
+main {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#hero {
+  float: left;
+  background-color: #2158b7;
+}
+
+#hero img {
+  width: 60%;
+}
